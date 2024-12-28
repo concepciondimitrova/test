@@ -1,6 +1,6 @@
 import os
 
-TASKS_FILE = "for_tasks.txt"
+TASKS_FILE = "tasks.txt"
 
 def load_tasks():
     if not os.path.exists(TASKS_FILE):
